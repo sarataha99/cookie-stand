@@ -1,0 +1,103 @@
+body{
+    font-family: "Grandstander" , cursive;
+}
+*{
+    box-sizing: border-box;
+}
+
+header {
+   position: fixed;
+   width: 100%;
+   top :0;
+padding: 20px;
+    background-color:saddlebrown
+}
+header h1 {
+    color:indianred;
+    font-weight: bold;
+    float: left;
+}
+
+header nav {
+    float: right;
+    padding: 0 30px;
+}
+header nav ul il {
+    display: inline-block;
+    padding: 0 30;
+}
+header nav ul li a {
+    text-decoration: none;
+    color:tomato;
+    text-transform: uppercase;
+    font-size:  15px;
+}
+#hero {
+    background-image: url("https://suspicious-nobel-f9e777.netlify.app/assets/chinook.jpg");
+    
+    height: 450px;
+    margin-top: 45px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hero h2{
+    color:yellow
+    text-align: center;
+    line-height: 90px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#program h2 {
+    text-align: center;
+    font-weight: bolder;
+    margin: 20px 0px;
+}
+#program p {
+background-image: url('https://st3.depositphotos.com/1624647/17517/i/1600/depositphotos_175172904-stock-photo-texture-background-pattern-linen-fabric.jpg');
+    padding: 0px 30px;
+    color:saddlebrown;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+
+
+#program p a {
+    text-decoration: none;
+font-weight: 800;
+}
+
+#program p a:hover {
+
+text-decoration: underline;
+color:sienna;
+} 
+#cookies {
+    margin: auto;
+    width: 90%;
+}
+.CookieSelection{
+    background-color:sienna;
+    margin: 10px 30px;
+    height: 160px;
+    width: 20%;
+    padding: 3%;
+    float: left;
+    border-radius: 20px;;
+}
+/*.CookieSelection h3{
+    color: indianred;
+    font-weight: 400;
+    line-height : 1.2;
+    padding-left: 15px;
+    padding-top: 20px;
+    float: left;
+   text-align: center; }
+*/
+footer {
+    clear: both;
+    width: 100%;
+    background-color:tomato;
+    padding: 15px;
+    text-align: center;
+}
