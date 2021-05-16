@@ -14,7 +14,7 @@ const seattle ={
     total:0,
 
     calcCustmerEachHours : function(){
-        for (let i = 0; 1< hours.lengt ;i++) {
+        for (let i = 0; 1< hours.length ;i++) {
             this.custmorEachHours[i] = (random(this.minCustmer,this.maxCustmer));
                 this.calcCustmerEachHours.push(random(this.minCustmer,this.maxCustmer));
             }
@@ -36,12 +36,12 @@ const seattle ={
             let unorderedList =document.createElement('ul');
             theParent.appendChild(unorderedList);
             for (let i = 0; i < hours.length; i++) {
-                let listItem=document.createElement('il');
+                let listItem=document.createElement('li');
                 unorderedList.appendChild(listItem);
                 listItem.textContent = `${hours[i]}: ${this.cookiesEachHours[i]} cookies`
                 
             }
-            let totalItem=document.createElement('il');
+            let totalItem=document.createElement('li');
             unorderedList.appendChild(totalItem);
             totalItem.textContent =`total: ${this.total} cookies`
         }
@@ -114,7 +114,7 @@ const Dubai ={
     total:0,
 
     calcCustmerEachHours : function(){
-        for (let i = 0; 1< hours.lengt ;i++) {
+        for (let i = 0; 1< hours.length ;i++) {
             this.custmorEachHours[i] = (random(this.minCustmer,this.maxCustmer));
                 this.calcCustmerEachHours.push(random(this.minCustmer,this.maxCustmer));
             }
@@ -212,7 +212,7 @@ const Lima ={
     total:0,
 
     calcCustmerEachHours : function(){
-        for (let i = 0; 1< hours.lengt ;i++) {
+        for (let i = 0; 1< hours.length ;i++) {
             this.custmorEachHours[i] = (random(this.minCustmer,this.maxCustmer));
                 this.calcCustmerEachHours.push(random(this.minCustmer,this.maxCustmer));
             }
@@ -249,3 +249,32 @@ console.log(Lima);
 Lima.calcCustmerEachHours();
 Lima.calcCookiesEachHour();
 Lima.renderfunction();
+// 'use strict';
+// const hours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'];
+// function random(max,min){
+//     return Math.floor(Math.random()*(max - min + 1) + min);
+// }
+// const seattle ={
+//     locationName : 'seattle',
+//     minCustmer : 23,
+//     maxCustmer : 65,
+//     avgCookies : 6.3,
+//     custmorEachHours : [],
+//     cookiesEachHours : [],
+
+// calcCustmerEachHours: function(){
+//     for (let i = 0; 1< hours.length ;i++) {
+//         //this.custmorEachHours[i] = (random(this.minCustmer,this.maxCustmer));
+//            this.calcCustmerEachHours.push(random(this.minCustmer,this.maxCustmer));
+//         }
+
+//     },
+//     calccookiesEachHours:function(){
+
+//     }
+//     //console.log(this.custmorEachHours);
+// }
+// console.log(seattle);
+// seattle.calcCustmerEachHours();
+// seattle.cookiesEachHours();
+
